@@ -1,0 +1,23 @@
+.details {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.details img {
+  max-width: 300px;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .details {
+    flex-direction: column;
+  }
+
+  .details img {
+    width: 100%;
+  }
+}

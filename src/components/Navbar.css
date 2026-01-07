@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background:white;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+}
+
+.name {
+  font-size: 1.2rem;
+}
+
+.links a {
+  margin-left: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .links a {
+    margin-left: 10px;
+  }
+}
